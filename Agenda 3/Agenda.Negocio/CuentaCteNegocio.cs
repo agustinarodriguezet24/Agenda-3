@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System;
-using Datos;
+using Agenda.Datos;
+using Agenda.Entidades;
 
-namespace Negocio
+namespace Agenda.Negocio
 {
     public class CuentaCteNegocio
     {
@@ -15,9 +11,7 @@ namespace Negocio
         public void Agregar(CuentaCte cuenta)
         {
             if (cuenta.LimiteCredito < 0)
-            {
                 throw new Exception("El límite de crédito no puede ser negativo.");
-            }
 
             if (cuenta.EstadoCredito != "Activo" &&
                 cuenta.EstadoCredito != "Suspendido")
@@ -26,6 +20,25 @@ namespace Negocio
             }
 
             datos.Agregar(cuenta);
+        }
+
+        public void Modificar(CuentaCte cuenta)
+        {
+            if (cuenta.LimiteCredito < 0)
+                throw new Exception("El límite de crédito no puede ser negativo.");
+
+            if (cuenta.EstadoCredito != "Activo" &&
+                cuenta.EstadoCredito != "Suspendido")
+            {
+                throw new Exception("El estado debe ser Activo o Suspendido.");
+            }
+
+            datos.Modificar(cuenta);
+        }
+
+        public void EliminarPorAgenda(int idAgenda)
+        {
+            datos.EliminarPorAgenda(idAgenda);
         }
     }
 }

@@ -11,7 +11,7 @@ namespace Agenda.Datos
     public class PersonaDatos
     {
         private string conexion =
-            "Server=localhost;Database=agenda;Uid=root;Pwd=TU_CONTRASEÑA;";
+    "          Server=localhost;Database=agenda3;Uid=root;Pwd=;";
 
         public void Agregar(Persona persona)
         {

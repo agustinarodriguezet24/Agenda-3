@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\agust\\OneDrive\\Documentos\\Contenidos 5to año\\Laboratorio de programación\\Programacion en Capas, base de datos - Agenda 3\\Agenda 3\\Agenda.Datos\\Agenda.Datos.csproj": {}
+    "C:\\Users\\agust\\OneDrive\\Documentos\\Contenidos 5to año\\Laboratorio de programación\\Programacion en Capas, base de datos - Agenda 3\\Agenda 3\\Agenda.Datos\\Agenda3.Datos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\agust\\OneDrive\\Documentos\\Contenidos 5to año\\Laboratorio de programación\\Programacion en Capas, base de datos - Agenda 3\\Agenda 3\\Agenda.Datos\\Agenda.Datos.csproj": {
+    "C:\\Users\\agust\\OneDrive\\Documentos\\Contenidos 5to año\\Laboratorio de programación\\Programacion en Capas, base de datos - Agenda 3\\Agenda 3\\Agenda.Datos\\Agenda3.Datos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\agust\\OneDrive\\Documentos\\Contenidos 5to año\\Laboratorio de programación\\Programacion en Capas, base de datos - Agenda 3\\Agenda 3\\Agenda.Datos\\Agenda.Datos.csproj",
-        "projectName": "Agenda.Datos",
-        "projectPath": "C:\\Users\\agust\\OneDrive\\Documentos\\Contenidos 5to año\\Laboratorio de programación\\Programacion en Capas, base de datos - Agenda 3\\Agenda 3\\Agenda.Datos\\Agenda.Datos.csproj",
+        "projectUniqueName": "C:\\Users\\agust\\OneDrive\\Documentos\\Contenidos 5to año\\Laboratorio de programación\\Programacion en Capas, base de datos - Agenda 3\\Agenda 3\\Agenda.Datos\\Agenda3.Datos.csproj",
+        "projectName": "Agenda3.Datos",
+        "projectPath": "C:\\Users\\agust\\OneDrive\\Documentos\\Contenidos 5to año\\Laboratorio de programación\\Programacion en Capas, base de datos - Agenda 3\\Agenda 3\\Agenda.Datos\\Agenda3.Datos.csproj",
         "packagesPath": "C:\\Users\\agust\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\agust\\OneDrive\\Documentos\\Contenidos 5to año\\Laboratorio de programación\\Programacion en Capas, base de datos - Agenda 3\\Agenda 3\\Agenda.Datos\\obj\\",
         "projectStyle": "PackageReference",
@@ -32,8 +32,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\agust\\OneDrive\\Documentos\\Contenidos 5to año\\Laboratorio de programación\\Programacion en Capas, base de datos - Agenda 3\\Agenda 3\\Agenda.Entidades\\Agenda.Entidades.csproj": {
-                "projectPath": "C:\\Users\\agust\\OneDrive\\Documentos\\Contenidos 5to año\\Laboratorio de programación\\Programacion en Capas, base de datos - Agenda 3\\Agenda 3\\Agenda.Entidades\\Agenda.Entidades.csproj"
+              "C:\\Users\\agust\\OneDrive\\Documentos\\Contenidos 5to año\\Laboratorio de programación\\Programacion en Capas, base de datos - Agenda 3\\Agenda 3\\Agenda.Entidades\\Agenda3.Entidades.csproj": {
+                "projectPath": "C:\\Users\\agust\\OneDrive\\Documentos\\Contenidos 5to año\\Laboratorio de programación\\Programacion en Capas, base de datos - Agenda 3\\Agenda 3\\Agenda.Entidades\\Agenda3.Entidades.csproj"
               }
             }
           }
@@ -53,6 +53,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[26.7.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -73,12 +79,12 @@
         }
       }
     },
-    "C:\\Users\\agust\\OneDrive\\Documentos\\Contenidos 5to año\\Laboratorio de programación\\Programacion en Capas, base de datos - Agenda 3\\Agenda 3\\Agenda.Entidades\\Agenda.Entidades.csproj": {
+    "C:\\Users\\agust\\OneDrive\\Documentos\\Contenidos 5to año\\Laboratorio de programación\\Programacion en Capas, base de datos - Agenda 3\\Agenda 3\\Agenda.Entidades\\Agenda3.Entidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\agust\\OneDrive\\Documentos\\Contenidos 5to año\\Laboratorio de programación\\Programacion en Capas, base de datos - Agenda 3\\Agenda 3\\Agenda.Entidades\\Agenda.Entidades.csproj",
-        "projectName": "Agenda.Entidades",
-        "projectPath": "C:\\Users\\agust\\OneDrive\\Documentos\\Contenidos 5to año\\Laboratorio de programación\\Programacion en Capas, base de datos - Agenda 3\\Agenda 3\\Agenda.Entidades\\Agenda.Entidades.csproj",
+        "projectUniqueName": "C:\\Users\\agust\\OneDrive\\Documentos\\Contenidos 5to año\\Laboratorio de programación\\Programacion en Capas, base de datos - Agenda 3\\Agenda 3\\Agenda.Entidades\\Agenda3.Entidades.csproj",
+        "projectName": "Agenda3.Entidades",
+        "projectPath": "C:\\Users\\agust\\OneDrive\\Documentos\\Contenidos 5to año\\Laboratorio de programación\\Programacion en Capas, base de datos - Agenda 3\\Agenda 3\\Agenda.Entidades\\Agenda3.Entidades.csproj",
         "packagesPath": "C:\\Users\\agust\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\agust\\OneDrive\\Documentos\\Contenidos 5to año\\Laboratorio de programación\\Programacion en Capas, base de datos - Agenda 3\\Agenda 3\\Agenda.Entidades\\obj\\",
         "projectStyle": "PackageReference",
